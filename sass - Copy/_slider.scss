@@ -1,0 +1,39 @@
+// bagi sliderul facut de tine
+
+// ------------------------------------- slider -----------------------------------------
+
+.slider {
+   display: flex;
+   list-style: none;
+   gap: 1rem;
+
+   &__text {
+      border-radius: 5px;
+      background: var(--third-c);
+      color: #fff;
+      padding: 6rem 2rem 2rem;
+   }
+}
+
+.slider > * {
+   width: 30%;
+   flex: 0 0 auto;
+   position: relative;
+
+   & img {
+      width: 8rem;
+      border-radius: 100vmax;
+      position: relative;
+      margin-inline: auto;
+      top: 4rem;
+   }
+
+   @media (max-width: 50em) {
+      width: 50%;
+   }
+
+   @media (max-width: 30em) {
+      width: 100%;
+   }
+}
+// ------------------------------------- slider end -----------------------------------------

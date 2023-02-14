@@ -331,37 +331,6 @@
 }
 // ---------------------coloane end------------------
 
-// ---------------------sectiune produse------------------
-
-.produse-wrapper {
-   padding: 5rem 0;
-   display: grid;
-   justify-content: center;
-   gap: 4rem;
-   grid-template-columns: auto auto auto;
-
-   @media (max-width: 80em) {
-      grid-template-columns: auto auto;
-      gap: 2rem;
-   }
-
-   // @media (max-width: 60em) {
-   //    grid-template-columns: auto auto;
-   //    gap: 1rem;
-   // }
-
-   @media (max-width: 50em) {
-      grid-template-columns: auto;
-      // gap: 1rem;
-   }
-
-   // display: flex;
-   // justify-content: space-evenly;
-   // flex-wrap: wrap;
-   // align-items: center;
-}
-
-// ---------------------sectiune produse end------------------
 // ---------------------product card ------------------
 
 .product-card {
@@ -440,3 +409,35 @@
    }
 }
 // ---------------------product card end------------------
+
+// ---------------------sectiune produse------------------
+
+.produse-wrapper {
+   padding: 5rem 0;
+   display: grid;
+   justify-content: center;
+   gap: 4rem;
+   grid-template-columns: auto auto auto;
+
+   @media (max-width: 80em) {
+      grid-template-columns: auto auto;
+      gap: 2rem;
+   }
+
+   // @media (max-width: 60em) {
+   //    grid-template-columns: auto auto;
+   //    gap: 1rem;
+   // }
+
+   @media (max-width: 50em) {
+      grid-template-columns: auto;
+      // gap: 1rem;
+   }
+
+   // display: flex;
+   // justify-content: space-evenly;
+   // flex-wrap: wrap;
+   // align-items: center;
+}
+
+// ---------------------sectiune produse end------------------

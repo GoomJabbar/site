@@ -3,7 +3,7 @@
 :root {
    --main-c: hsl(226, 39%, 28%);
    --mainsecond-c: rgb(226, 112, 54);
-   --third-c: hsl(34, 38%, 79%);
+   --third-c: hsl(33, 22%, 55%);
    --default-c: hsl(226, 42%, 6%);
 
    --font-family-main: "Raleway", sans-serif;
@@ -11,10 +11,6 @@
    --fw-medium: 500;
    --fw-semi-bold: 600;
    --fw-bold: 700;
-
-   /* Shadows */
-
-   --light-shadow: 0 8px 15px 2px rgba(255, 255, 255, 0.5);
 }
 
 /* Remove default margin */
