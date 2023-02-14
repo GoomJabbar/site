@@ -78,7 +78,7 @@ svg {
   }
 }
 .primary-header {
-  background-image: url(/img/life-insurance.jpg);
+  background-image: url(../img/life-insurance.jpg);
   height: 90vh;
   background-position: bottom;
   background-size: cover;
@@ -318,7 +318,7 @@ svg {
 }
 .even-colums__foto {
   min-height: 40vh;
-  background-image: url(/img/slide-3.jpg);
+  background-image: url(../img/slide-3.jpg);
   background-size: cover;
   background-position: center;
 }
