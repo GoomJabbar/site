@@ -276,11 +276,11 @@
       background-position: center;
 
       &[aria-expanded="false"] {
-         background-image: url("/svg/icon-hamburger.svg");
+         background-image: url("../svg/icon-hamburger.svg");
       }
 
       &[aria-expanded="true"] {
-         background-image: url("/svg/icon-close.svg");
+         background-image: url("../svg/icon-close.svg");
       }
 
       // &__icon-close {

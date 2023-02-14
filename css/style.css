@@ -295,10 +295,10 @@ svg {
     background-position: center;
   }
   .mobile-nav-toggle[aria-expanded=false] {
-    background-image: url("/svg/icon-hamburger.svg");
+    background-image: url("../svg/icon-hamburger.svg");
   }
   .mobile-nav-toggle[aria-expanded=true] {
-    background-image: url("/svg/icon-close.svg");
+    background-image: url("../svg/icon-close.svg");
   }
 }
 .main-container {
