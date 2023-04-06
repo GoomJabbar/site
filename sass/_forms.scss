@@ -1,0 +1,83 @@
+.main-section {
+   display: grid;
+   place-items: center;
+   background-color: orangered;
+   padding: 2rem;
+   height: 100vh;
+}
+
+.c-form {
+   display: flex;
+   padding: 2rem 2rem;
+   flex-direction: column;
+   // justify-content: center;
+   // align-items: center;
+   // gap: 2rem;
+   overflow: hidden;
+   background-color: olivedrab;
+   border-radius: 3px;
+   width: 80%;
+   max-width: 50rem;
+
+   &__email {
+      padding: 0.5rem;
+      border-radius: 3px;
+
+      &--input {
+         border: 0;
+         font-size: 1.4rem;
+         padding: 1rem;
+         border-radius: 5px;
+         width: 100%;
+      }
+   }
+
+   &__name {
+      padding: 0.5rem;
+      border-radius: 3px;
+
+      &--input {
+         border: 0;
+         font-size: 1.4rem;
+         padding: 1rem;
+         border-radius: 5px;
+         width: 100%;
+      }
+   }
+
+   &__text {
+      padding: 0.5rem;
+      height: 20rem;
+
+      &--input {
+         border: 0;
+         font-size: 1.4rem;
+         padding: 1rem;
+         width: 100%;
+         border-radius: 5px;
+         min-height: 50%;
+
+         // &:focus {
+         //    border: 1px solid orange;
+         // }
+      }
+   }
+
+   &__btn {
+      align-self: center;
+      border: 0;
+      width: 20rem;
+      padding: 1rem 2rem;
+      border-radius: 100vh;
+      background-color: rgb(19, 67, 226);
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+         background-color: orange;
+      }
+   }
+}

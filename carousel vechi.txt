@@ -1,0 +1,46 @@
+ <section class="carousel text-center">
+            <h2>Carousel</h2>
+            <!-- crousel here -->
+            <ul class="slider">
+                <li class="slider__content">
+                    <img src="img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+
+
+
+            </ul>
+
+        </section>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
     <link rel="icon" type="image/png" href="favicon.png">
@@ -12,12 +12,249 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
+
+    <!------------------------------------------------- slider ----------------------------------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+
+    <!------------------------------------------------- slider end ----------------------------------------------------->
+
 </head>
 
 <body>
-    <h1>Hello</h1>
-    <!-- Script -->
-    <!-- <script src="script.js"></script> -->
+
+    <header class="primary-header">
+        <div class="nav-container">
+            <div class="nav-wrapper">
+                <a href="#"><img src="/img/logo.png" alt="" class="logo"></a>
+                <!-- bag aici un buton cu area controls si pun id -->
+                <button class="mobile-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+                    <!-- <img class="mobile-nav-toggle__icon-hamburger" src="svg/icon-hamburger.svg" alt=""
+                        aria-hidden="true">
+                    <img class="mobile-nav-toggle__icon-close" src="svg/icon-close.svg" alt="" aria-hidden="true"> -->
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="main-nav__list" role="list">
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Acasa</a></li>
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Despre Noi</a></li>
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Asigurari</a></li>
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Servicii</a></li>
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Cariere</a></li>
+                        <li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="btn">Verificare RCA</button>
+            </div>
+        </div>
+        <div class="primary-header__text flow">
+            <div class="primary-header__text--slogan1">Partenerul tau de valoare!</div>
+            <div class="primary-header__text--slogan2 bot-med">Profesionalism in asigurari</div>
+            <button class="btn-orange">Asigurare RCA Online</button>
+
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section id="about">
+            <div class="even-colums">
+                <div class="even-colums__text">
+                    <h1>Despre Noi</h1>
+                    <h2>experienta de 15 ani in domeniul asigurarilor</h2>
+                    <p>Avem obiective mari legate de consilierea profesionista in domeniul asigurarilor, ne place sa
+                        spunem ca
+                        “suntem mereu alaturi de dumneavoastra”... Scopul nostru este ca dumneavoastra sa fiti multumit
+                        de
+                        serviciile pe care vi le oferim astfel incat sa consolidam un parteneriat de lunga durata bazat
+                        pe
+                        respect, incredere si loialitate, prin oferirea unei game cat mai largi de produse din domeniul
+                        asigurarilor care sa corespunda nevoilor dumneavoastra.
+
+                        Va suntem aliati in alegerea oricarei asigurari! Fie ca vorbim de asigurari de sanatate,
+                        asigurari de
+                        calatorie, asigurari auto sau asigurari pentru o afacere in domeniul transportului, va oferim
+                        consultanta pentru alegerea celor mai bune solutii. Considerati asigurarile o prioritate? Va
+                        putem la
+                        dispozitie cei de 15 ani de experienta in domeniul asigurarilor si o multitudine de
+                        colaboratori.</p>
+                </div>
+                <div class="even-colums__foto">
+                    <!-- <img src="/img/hotel-2.jpg" alt="hotel"> -->
+
+                </div>
+            </div>
+        </section>
+
+        <section id="produse">
+            <div class="titlu-sectiune">
+                <h1>Gamă variată de produse din domeniul asigurărilor</h1>
+                <h2>ALEGEȚI UN PRODUS CARE SĂ CORESPUNDA NEVOILOR DUMNEAVOASTRĂ</h2>
+            </div>
+
+            <div class="produse-wrapper">
+                <div class="product-card flow">
+                    <img src="svg/car-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare Casco</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+
+                </div>
+
+                <div class="product-card flow">
+                    <img src="svg/online-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare Online</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+                </div>
+
+                <div class="product-card flow">
+                    <img src="svg/health-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare Sanatate</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+                </div>
+
+                <div class="product-card flow">
+                    <img src="svg/travel-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare Calatorii</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+                </div>
+
+                <div class="product-card flow">
+                    <img src="svg/cmr-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare CMR</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+                </div>
+
+                <div class="product-card flow">
+                    <img src="svg/house-insurance.png" alt="" class="product-card__img bot-med">
+                    <div class="product-card__title ">
+                        <h1>Asigurare Locuinta</h1>
+                        <p class="bot-sm">Bucuria oferita de autoturismul propriu pot fi umbrite de evenimente
+                            neprevazute si nedorite.
+                        </p>
+                        <a class="product-card__link" href="#">Detali</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="carousel text-center">
+            <h2>Carousel</h2>
+            <!-- crousel here -->
+            <div class="slider">
+                <div class="slide slide--1">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </div>
+
+                <div class="slide slide--2">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </div>
+
+                <div class="slide slide--3">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </div>
+                <button class="slider__btn slider__btn--left">&larr;</button>
+                <button class="slider__btn slider__btn--right">&rarr;</button>
+                <div class="dots"></div>
+            </div>
+            <!-- <ul class="slider">
+                <li class="slider__content">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+                <li class="slider__content">
+                    <img src="../img/user-2.jpg" alt="" class="slider__img">
+                    <div class="slider__text flow">
+                        <h3 class="fw-bold">Name Surename</h3>
+                        <p data-width="wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae
+                            perspiciatis praesentium
+                            nulla.</p>
+                    </div>
+                </li>
+            </ul> -->
+
+        </section>
+
+    </main>
+
+
 </body>
+<script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+<script src="js/script.js"></script>
+
+
 
 </html>
